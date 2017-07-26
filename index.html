@@ -1,25 +1,333 @@
+<!DOCTYPE HTML>
+<!--
+	ANDES | Apps Neuquinas DE Salud
+	www.andes.gob.ar
+	Sitio oficial de ANDES
+-->
 <html>
+	<head>
+		<title>ANDES | Apps Neuquinas DE Salud</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="bootstrap/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="bootstrap/css/main.css" />
+		<!-- Bootstrap 4.0.0 -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<!--[if lte IE 8]><link rel="stylesheet" href="bootstrap/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="bootstrap/css/ie9.css" /><![endif]-->
+		<!--Material Icons-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet">
+	</head>
+	<body class="landing">
 
-<head>
-    <title>ANDES: Aplicaciones Neuquinas de Salud</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        BODY {
-            /*background: #1F9CC9; */
-            text-align: center;
-        }
-        
-        DIV {
-            padding-top: 25vh;
-        }
-    </style>
-</head>
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+				<!-- Header -->
+				<header id="header">
+						<div class="logo">
+							<a href=""><img src="images/andes_logo_desktop.svg" alt="" class="hidden logo-img-desktop">
+							<a href=""><img src="images/andes_logo_tablet.svg" alt="" class="hidden logo-img-tablet">
+							<a href=""><img src="images/andes_logo_mobile.png" alt="" class="hidden logo-img-mobile">
+						</div>
+					<nav id="nav">	
+						<a href="#puntos" class="scrolly btn small btn-sm btn-outline-info">Puntos de acreditación</a>
+							<a href="#menu" class="btn menuToggle"><i class="material-icons md-dark">menu</i></a>
+							<div id="menu">
+								<ul class="special">
+									<li><a href="">Inicio</a></li>
+									<li><a href="#beneficios" class="scrolly">Beneficios</a></li>
+									<li><a href="#" class="scrolly">Cómo acreditarse</a></li>
+									<li><a href="#pacientes" class="scrolly">Pacientes</a></li>
+									<li><a href="#profesionales" class="scrolly">Profesionales</a></li>
+									<li><a href="#efectores" class="scrolly">Efectores</a></li>
+								</ul>
+							</div>								
+					</nav>
+				</header>
 
-<body>
-    <div>
-        <a href="https://github.com/andes/andes"><img src="images/logo.png"></a>
-    </div>
-</body>
+				<!-- Banner <-->
+					<section id="banner">
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="inner">
+									<h2><strong>ANDES</strong></h2>
+									<p>Es una plataforma digital de servicios de salud que implementa la HUDS / Historia Única Digital de Salud y permite a pacientes y profesionales de la salud acceder a los datos registrados de un modo seguro.</a></p>
+									<ul class="actions">
+										<li><a href="#beneficios" class="scrolly btn btn-md f-azul">Quiero acreditarme</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+				<!-- barra inferior -->
+				<div class="row no-gutters barra-inferior-desktop">
+					<div class="col-4">
+						<div class="bloque f-negro-opacidad">
+							<div class="row no-gutters">
+								<div class="col-3">
+								<img class="icon-container" src="images/pacientes.svg">
+								</div>
+								<div class="col-9">
+								<h5 class="t-blanca">Pacientes</h5>
+								<p>ANDES concibe al paciente como el protagonista del Sistema de Salud, ubicándolo en el centro de todos los procesos de cuidado de su salud.</p>
+									<a href="#pacientes" class="scrolly btn f-violeta">Saber más</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="bloque f-negro-opacidad">
+							<div class="row no-gutters">
+								<div class="col-3">
+								<img class="icon-container" src="images/profesionales.svg">
+								</div>
+								<div class="col-9">
+								<h5 class="t-blanca">Profesionales</h5>
+								<p>Se diseñó un módulo inteligente orientado a resolver las necesidades que surgen en el marco de una consulta médica.</p>
+									<a href="#profesionales" class="scrolly btn flat f-azul-oscuro">Saber más</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="bloque f-azul-oscuro-opacidad">
+							<div class="row no-gutters">
+								<div class="col-3">
+								<img class="icon-container" src="images/efectores01.svg">
+								</div>
+								<div class="col-9">
+								<h5 class="t-celeste">Efectores</h5>
+								<p>Se provee un conjunto de herramientas destinadas a facilitar la gestión de pacientes, desde la asignación de citas hasta el registro de datos médicos.</p>
+									<a href="#efectores" class="scrolly btn claro f-celeste">Saber más</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ./barra inferior -->
 
+				<!-- barra inferior mobile -->
+				<div class="row no-gutters hidden barra-inferior-mobile">
+					<a href="#pacientes" class="scrolly col-6">
+						<div class="bloque f-violeta">
+							 <img class="icon-container" src="images/pacientes.svg"><br> 
+							<h3 class="t-rosa">Pacientes</h3>
+						</div>
+					</a>
+					<a href="#profesionales" class="scrolly col-6">
+						<div class="bloque f-azul">
+							 <img class="icon-container" src="images/profesionales.svg"><br> 
+							<h3 class="t-azul">Profesionales</h3>
+						</div>
+					</a>
+					<a href="#efectores" class="scrolly col-12">
+						<div class="bloque-h f-azul-oscuro inline-block">
+							<div class="d-inline-block"><img class="icon-container-h" src="images/efectores01.svg"></div>
+							<div class="d-inline-block"><h4 class="t-celeste">Efectores</h4></div>
+						</div>
+					</a>
+				</div>
+				<!-- ./barra inferior mobile -->
+
+
+				<!-- Beneficios -->
+					<section id="beneficios" class="wrapper style5 special">
+						<div class="row inner">
+							<div class="col-md-6 col-sm-12">
+							<header class="major align-left">
+								<span class="volanta t-violeta">Acceder a ANDES</span><br>
+								<h2>¿Qué beneficios tengo al estar acreditado?</h2>
+								<p>Al estar acreditado en ANDES, tus registros médicos se encuentran digitalmente organizados y disponibles para todos los agentes involucrados en el proceso del cuidado de tu salud; podrás acceder a ellos de manera rápida y segura cuándo y dónde quieras.</p>
+							</header>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<!--Galería-->
+								<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner" style="height: 100%;" role="listbox">
+									<div class="carousel-item active">
+									<img class="d-block img-fluid contain" src="images/beneficio01.svg" alt="First slide">
+									</div>
+									<div class="carousel-item">
+									<img class="d-block img-fluid contain" src="images/beneficio02.svg" alt="Second slide">
+									</div>
+									<div class="carousel-item">
+									<img class="d-block img-fluid contain" src="images/beneficio03.svg" alt="Third slide">
+									</div>
+								</div>
+								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="btn" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carouselExampleIndicators" role="btn" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+								</div>
+								<!--/Galería-->
+							</div>
+						</div>
+					</section>
+
+				<!-- Objetivos -->
+					<section class="wrapper style3 special">
+						<div class="row inner">
+							<div class="col-md-6 col-sm-12">
+								<img class="icon-section right" src="images/inter.svg">
+							</div>	
+							<div class="col-md-6 col-sm-12">
+							<header class="major align-right">
+								<span class="volanta t-celeste">Paso por paso</span><br>
+								<h2>¿Cómo me acredito en ANDES?</h2>
+								<p>Acercándote a un punto de acreditación con tu D.N.I y validando tu identidad (constatando tus datos con entidades oficiales), quedarás habilitado para utilizar los beneficios de ANDES, pautar citas con profesionales de la salud, acceder a tus prestaciones y antecedentes clínicos.</p>
+							</header>
+							</div>
+						</div>
+					</section>
+
+				<!-- Pacientes -->
+					<section id="pacientes" class="wrapper style2 special vh">
+						<div class="row inner">
+							<div class="col-md-6 col-sm-6 col-xs-6">
+							<header class="major align-left">
+								<img class="rounded-circle cover" src="images/pacientes.jpg" alt=""><br>								
+								<span class="volanta t-blanca">Protagonistas del nuevo paradigma</span><br>
+								<h1 class="t-rosa">Pacientes</h1>
+								<p>A través de ANDES, los pacientes adquieren mayor control sobre sus datos de salud, desde el acceso a sus registros médicos hasta la autogestión de turnos con los profesionales que intervienen en el cuidado de su salud. 
+								</p>
+							</header>
+							</div>
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<img class="icon-section right" src="images/pacientes.svg">
+								</div>						
+							</div>
+					</section>
+
+				<!-- Profesionales -->
+					<section id="profesionales" class="wrapper style1 special vh profesionales-desktop">
+						<div class="row inner">
+							<div class="col-md-6 col-sm-6 col-xs-6">
+								<img class="icon-section left" src="images/profesionales.svg">
+							</div>	
+							<div class="col-md-6 col-sm-6 col-xs-6">
+							<header class="major align-right">
+								<img class="rounded-circle cover" src="images/profesionales.jpg" alt=""><br>								
+								<span class="volanta t-azul">Actores del universo ANDES</span><br>
+								<h1 class="t-celeste">Profesionales</h1>
+								<p>Una de las herramientas más potentes que ofrece ANDES, es el Registro Universal de Prestaciones (RUP), 
+								la cual permite emular los procedimientos que se ejecutan en el marco de una consulta médica de manera digital, asociando hallazgos con prestaciones.</p>
+							</header>
+							</div>					
+						</div>
+					</section>
+
+				<!-- Profesionales mobile -->
+					<section id="pacientes" class="wrapper style1 special vh profesionales-mobile">
+						<div class="row inner">
+							<div class="col-md-6 col-sm-6 col-xs-6">
+							<header class="major align-left">
+								<img class="rounded-circle cover" src="images/profesionales.jpg" alt=""><br>								
+								<span class="volanta t-blanca">Actores del universo ANDES</span><br>
+								<h1 class="t-celeste">Profesionales</h1>
+								<p>Una de las herramientas más potentes que ofrece ANDES, es el Registro Universal de Prestaciones (RUP), 
+								la cual permite emular los procedimientos que se ejecutan en el marco de una consulta médica de manera digital, asociando hallazgos con prestaciones.</p>
+							</header>
+							</div>
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<img class="icon-section right" src="images/profesionales.svg">
+								</div>						
+							</div>
+					</section>
+
+				<!-- Efectores -->
+					<section id="efectores" class="wrapper style3 special vh">
+						<div class="row inner">
+							<div class="col-md-6 col-sm-6 col-xs-6">
+							<header class="major align-left">
+								<img class="rounded-circle cover" src="images/efectores.jpg" alt=""><br>								
+								<span class="volanta t-rosa">Entidades</span><br>
+								<h1 class="t-celeste">Efectores</h1>
+								<p>La interoperabilidad entre los módulos que integran ANDES, permite tener un seguimiento preciso del paciente una vez que 
+									accede al Sistema de Salud; ya sea que lo haga desde una sala de primeros auxilios o centro de salud hasta un hospital.</p>
+							</header>	
+							</div>
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<img class="icon-section" src="images/efectores00.svg">
+								</div>						
+							</div>
+					</section>
+
+				<!-- Puntos de acreditación -->
+					<section id="puntos" class="mapa style4 special vh">
+						<html>
+						<body>
+							<div id="map"></div>
+							<script>
+
+							function initMap() {
+
+								var map = new google.maps.Map(document.getElementById('map'), {
+								zoom: 12,
+								center: {lat: -38.896849552835874, lng: -68.03255473364254}
+								});
+
+								// Create an array of alphabetical characters used to label the markers.
+								var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+								// Add some markers to the map.
+								// Note: The code uses the JavaScript Array.prototype.map() method to
+								// create an array of markers based on a given "locations" array.
+								// The map() method here has nothing to do with the Google Maps API.
+								var markers = locations.map(function(location, i) {
+								return new google.maps.Marker({
+									position: location,
+									label: labels[i % labels.length]
+								});
+								});
+
+								// Add a marker clusterer to manage the markers.
+								var markerCluster = new MarkerClusterer(map, markers,
+									{imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+							}
+							var locations = [
+								{lat: -38.82152, lng: -68.13699},
+								{lat: -38.9379, lng:  -68.1171},
+								{lat: -38.95074, lng: -68.07033},
+								{lat: -38.95029, lng: -68.05686},
+							]
+							</script>
+							<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+							</script>
+							<script async defer
+							src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRVMV1sSrmpq_MeeVsosxwMKZ-xrOl8Co&callback=initMap">
+							</script>
+						</body>
+						</html>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; <strong>ANDES</strong> | Apps Neuquinas DE Salud</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="bootstrap/js/jquery.min.js"></script>
+			<script src="bootstrap/js/jquery.scrollex.min.js"></script>
+			<script src="bootstrap/js/jquery.scrolly.min.js"></script>
+			<script src="bootstrap/js/skel.min.js"></script>
+			<script src="bootstrap/js/util.js"></script>
+			<!--[if lte IE 8]><script src="bootstrap/js/ie/respond.min.js"></script><![endif]-->
+			<script src="bootstrap/js/main.js"></script>
+			<!-- JS SCRIPTS -->
+			<!-- jQuery 3.1.1 -->
+			<script src="./bootstrap/js/jquery-3.1.1.min.js"></script>
+			<!-- Bootstrap 4 -->
+			<script src="./bootstrap/js/bootstrap.min.js"></script>
+			<!--Tether-->
+			<script src="./bootstrap/js/tether.min.js"></script>
+	</body>
 </html>
