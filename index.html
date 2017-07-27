@@ -17,9 +17,7 @@
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">  
 		<!--[if lte IE 8]><link rel="stylesheet" href="bootstrap/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="bootstrap/css/ie9.css" /><![endif]-->
-		<!--Material Icons-->
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-			rel="stylesheet">
+
 	</head>
 	<body class="landing">
 
@@ -29,22 +27,22 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 							<div class="logo">
-								<a href=""><img src="images/andes_logo_desktop.svg" alt="" class="hidden logo-img-desktop">
-								<a href=""><img src="images/andes_logo_tablet.svg" alt="" class="hidden logo-img-tablet">
-								<a href=""><img src="images/andes_logo_mobile.svg" alt="" class="hidden logo-img-mobile">
+								<a href=""><img src="images/andes_logo_desktop.svg" alt="" class="hidden logo-img-desktop"></a>
+								<a href=""><img src="images/andes_logo_tablet.svg" alt="" class="hidden logo-img-tablet"></a>
+								<a href=""><img src="images/andes_logo_mobile.svg" alt="" class="hidden logo-img-mobile"></a>
 							</div>						
 							<nav id="nav">
 							<ul>
 								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<a href="#menu" class="menuToggle"><span><button href="#puntos" class="button outline"><i class="fa fa-map-marker" aria-hidden="true"></i>Puntos de acreditación</button></span>
 									<div id="menu">
 										<ul>
-									<li><a href="">Inicio</a></li>
-									<li><a href="#beneficios" class="scrolly">Beneficios</a></li>
-									<li><a href="#acreditarse" class="scrolly">Cómo acreditarse</a></li>
-									<li><a href="#pacientes" class="scrolly">Pacientes</a></li>
-									<li><a href="#profesionales" class="scrolly">Profesionales</a></li>
-									<li><a href="#efectores" class="scrolly">Efectores</a></li>
+											<li><a href="inicio">Inicio</a></li>
+											<li><a href="#beneficios" class="scrolly">Beneficios</a></li>
+											<li><a href="#acreditarse" class="scrolly">Cómo acreditarse</a></li>
+											<li><a href="#pacientes" class="scrolly">Pacientes</a></li>
+											<li><a href="#profesionales" class="scrolly">Profesionales</a></li>
+											<li><a href="#efectores" class="scrolly">Efectores</a></li>
 										</ul>
 									</div>
 								</li>
@@ -55,8 +53,9 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
+							<img src="images/logo_home.svg" alt="" class="logo-home"><br>
 							<h2 class="t-blanca">Bienvenidos a ANDES</h2>
-							<p>ANDES: Aplicaciones Neuquinas de Salud es una plataforma digital de servicios de salud que implementa la HUDS/Historia Uniicada Digital de Salud de la Provincia de Neuquén. Permite a los pacientes y a los miembros del Equipo de Salud acceder a los datos de salud de manera rápida y segura.</p>
+							<p><strong>ANDES:</strong> Aplicaciones Neuquinas de Salud es una plataforma digital de servicios de salud que implementa la HUDS/Historia Uniicada Digital de Salud de la Provincia de Neuquén. Permite a los pacientes y a los miembros del Equipo de Salud acceder a los datos de salud de manera rápida y segura.</p>
 							<ul class="actions">
 								<li><a href="#pacientes" class="scrolly button violeta">Pacientes</a></li>
 								<li><a href="#profesionales" class="scrolly button cyan">Equipos de Salud</a></li>
@@ -88,6 +87,9 @@
 									<div class="carousel-item">
 									<img class="d-block img-fluid contain" src="images/beneficio03.svg" alt="Third slide">
 									</div>
+									<div class="carousel-item">
+									<img class="d-block img-fluid contain" src="images/beneficio04.svg" alt="Third slide">
+									</div>
 								</div>
 								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="btn" data-slide="prev">
 									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -111,11 +113,11 @@
 								<h2>¿Cómo me registro en ANDES?</h2>
 							</header>
 							<ul class="features">
-								<li class="icon"><img src="images/inter.svg">
+								<li class="icon"><img src="images/a_dni.svg">
 									<h4>En un punto de acreditación</h4>
 									<p>Podes acercarte a un Punto de Acreditación con tu DNI que será utilizado para validar tu identidad por única vez a través de la consulta a múltiples bases de datos nacionales y provinciales.</p>
 								</li>
-								<li class="icon"><img src="images/inter.svg">
+								<li class="icon"><img src="images/codigo.svg">
 									<h4>A través de la app de ANDES</h4>
 									<p>También podes bajarte la app de ANDES y realizar el proceso de acreditación a través de la misma en forma sencilla, utilizando la cámara de tu celular para leer el código de tu DNI.</p>
 								</li>
@@ -139,9 +141,10 @@
 					<section id="pacientes" class="wrapper alt style2">
 						<section class="spotlight vh">
 							<div class="content align-left">
+								<img class="rounded-circle cover" src="images/pacientes.jpg" alt=""><br>
 								<span class="volanta">Protagonistas</span><br>
 								<h2>Pacientes</h2>
-								<p>A través de ANDES, los pacientes adquieren mayor control sobre sus datos de salud, desde el acceso a sus registros médicos hasta la autogestión de turnos con los profesionales que intervienen en el cuidado de su salud.</p>
+								<p>ANDES está pensado para que el paciente no sólo sea, sino que también se sienta DUEÑO de sus Datos de Salud. ANDES te permite el acceso a tu Historia de Salud, la autogestión de tus citas y acelerar los tiempos en que se resuelven tus trámites.</p>
 							</div>
 							<div class="image content"><img src="images/pacientes.svg" alt="" /></div>
 						</section>
@@ -150,18 +153,20 @@
 						<section class="spotlight vh">
 							<div class="image content"><img src="images/profesionales.svg" alt="" /></div>
 							<div class="content align-right">
+								<img class="rounded-circle cover" src="images/profesionales.jpg" alt=""><br>
 								<span class="volanta">Agentes</span><br>
-								<h2>Equipo de salud</h2>
-								<p class="t-blanca">Una de las herramientas más potentes que ofrece ANDES, es el Registro Universal de Prestaciones (RUP), la cual permite emular los procedimientos que se ejecutan en el marco de una consulta médica de manera digital, asociando hallazgos con prestaciones.</p>
+								<h2>Equipos de salud</h2>
+								<p class="t-blanca">ANDES ofrece una de las herramientas más potentes desarrolladas para el registro dinámico de los Datos de Salud. La información de salud es inherentemente compleja ya que consiste de miles de ideas modeladas en una multitud de formas determinadas por los episodios de la vida de la gente, las familias, las comunidades y la percepción de los miembros del equipo de salud y de los pacientes.</p>
 							</div>
 						</section>
 					</section>
 					<section id="efectores" class="wrapper alt style3">
 						<section class="spotlight vh">
 							<div class="content">
+								<img class="rounded-circle cover" src="images/efectores.jpg" alt=""><br>
 								<span class="volanta">Entidades</span><br>
 								<h2 class="t-rosa">Organizaciones</h2>
-								<p class="t-blanca">La interoperabilidad entre los módulos que integran ANDES, permite tener un seguimiento preciso del paciente una vez que accede al Sistema de Salud; ya sea que lo haga desde una sala de primeros auxilios o centro de salud hasta un hospital.</p>
+								<p class="t-blanca">ANDES provee a través de CITAS (Centro Inteligente de Trámites de Acceso a la Salud) herramientas destinadas a una gestión dinámica de la oferta y demanda del menú de prestaciones del Sistema de Salud proveyendo una plataforma multicanal para que los pacientes puedan acceder con mayor celeridad y oportunamente a las prestaciones.</p>
 							</div>
 							<div class="image content"><img src="images/efectores00.svg" alt="" /></div>
 						</section>
@@ -226,18 +231,18 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; <strong>ANDES</strong> | Apps Neuquinas DE Salud</li>
-						</ul>
+						<div class="row">
+							<div class="col-md-6 col-sm-12 col-xs-12 inline">
+									<div class="d-inline"><a href="#" class="icon-footer icon fa-github"></a></div>
+									<div class="d-inline copyright">© <strong>ANDES</strong> | Apps Neuquinas DE Salud</div>
+							</div>
+							<div class="col-md-6 col-sm-12 col-xs-12 inline">
+									<div class="d-inline"><a href=""><img src="images/logo_01.svg" alt="" class="logo-footer"></a></div>
+									<div class="d-inline"><a href=""><img src="images/logo_02.svg" alt="" class="logo-footer"></a></div>	
+									<div class="d-inline"><a href=""><img src="images/logo_03.svg" alt="" class="logo-footer"></a></div>	
+							</div>
+						</div>
 					</footer>
-
 			</div>
 
 		<!-- Scripts -->
