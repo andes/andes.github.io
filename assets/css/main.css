@@ -1663,6 +1663,7 @@ h9 {
 
 	body {
 		background: #2e3842;
+		font-family: Roboto,"Helvetica Neue",Arial,sans-serif !important;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -3762,7 +3763,7 @@ h9 {
 			color: white;
 			font-size: 1.35rem;
 			font-weight: 300;
-			padding: 1rem 20% 1rem 20%;
+			padding: 1rem 20% 0.25rem 20%;
 		}
 			#banner p a {
 				color: inherit;
