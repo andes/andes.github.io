@@ -114,7 +114,7 @@ h9 {
 
 .logo-footer {
 	height: 2rem;
-	margin: 2rem 0 2rem 2rem;
+	margin: 2rem 1rem 2rem 1rem;
 	fill: white;
 }
 
@@ -3683,13 +3683,47 @@ h9 {
 						display: block;
 						font-size: 0.8em;
 						/* letter-spacing: 0.225em; */
-						padding: 0 1.5em;
+						padding: 0 .5em;
 						text-transform: uppercase;
 					}
-
+			
+							#header nav > ul > li > a.youtube:after {
+								background-image: url("images/logo_youtube.svg");
+								background-position: right center;
+								background-repeat: no-repeat;
+								content: '';
+								display: inline-block;
+								height: 3.75em;
+								vertical-align: top;
+								width: 2em;
+							}
+							
+							#header nav > ul > li > a.facebook:after {
+								background-image: url("images/logo_facebook.svg");
+								background-position: right center;
+								background-repeat: no-repeat;
+								content: '';
+								display: inline-block;
+								height: 3.75em;
+								vertical-align: top;
+								width: 2em;
+							}
+							
+							#header nav > ul > li > a.twitter:after {
+								background-image: url("images/logo_twitter.svg");
+								background-position: right center;
+								background-repeat: no-repeat;
+								content: '';
+								display: inline-block;
+								height: 3.75em;
+								vertical-align: top;
+								width: 2em;
+							}
+						
 						#header nav > ul > li > a.menuToggle {
 							outline: 0;
 							position: relative;
+							padding: 0 1.5em;
 						}
 
 							#header nav > ul > li > a.menuToggle:after {
