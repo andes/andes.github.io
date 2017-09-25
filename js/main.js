@@ -1,4 +1,3 @@
-console.log("asd");
 (function (window) {
 
     var locations = [{
