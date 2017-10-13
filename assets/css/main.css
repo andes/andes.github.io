@@ -308,7 +308,7 @@ h9 {
 }
 
 .wrapper p {
-	color: grey;
+	/* color: grey; */
 	font-size: 1.2rem;
 	line-height: 2rem;
 	font-weight: 400;
