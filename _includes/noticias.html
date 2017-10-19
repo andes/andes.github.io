@@ -1,0 +1,25 @@
+<!-- Noticias -->
+<section id="noticias" class="wrapper style5">
+        <div class="inner">
+            <header class="major">
+                    <span class="volanta">información</span><br>
+                    <h2>Novedades</h2>
+                    <p>Seguí el día a día de ANDES a través de sus últimas noticias.</p>
+            </header>
+            <div class="row uniform align-center">
+                {% for post in site.posts limit:3 %}
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <p class="fecha">{{ post.date | date: "%d.%m.%Y" }}</p>																												                        
+                    <a href="{{ post.url }}"><h4 class="titulo">{{ post.title }}</h4></a>
+                    <div class="image">
+                        {% if post.featured %}
+                            <img src="{{ site.baseurl }}/images/posts/{{ post.featured }}" title="{{post.title}}" width="100%" class="featured img-responsive" />
+                        {% endif %}                   
+                    </div>
+                        <p class="contenido">{{ post.excerpt}}</p>
+                    <a href="{{ post.url }}" class="button violeta fit">Leer más</a>                    
+                </div>
+                {% endfor %}														                        
+            </div>
+        </div>
+</section>
