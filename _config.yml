@@ -1,5 +1,4 @@
 include: [".well-known"]
-git 
 #
 # This file contains configuration flags to customize your site
 #
