@@ -300,22 +300,6 @@ h9 {
 	}
 
 /* Noticias */
-.titulo {
-	color: black;
-	font-weight: 500;
-	line-height: 2rem;
-}
-
-.titulo:hover {
-	color: #2FBCEA;
-	cursor: pointer; 
-}
-
-.wrapper .contenido {
-	font-size: 1.1rem;
-    font-weight: lighter;
-}
-
 .wrapper p.fecha {
 	color: #2FBCEA;
 	font-size: 1rem;
@@ -330,10 +314,11 @@ h9 {
 	font-weight: 400;
 }
 
-@media screen and (max-width:768px) {
-	.titulo {
-		font-size: 0.9rem;
-	}
+/* Videos */
+.video {
+	padding: 1.65em 0 1em 0;
+	position: relative;
+	width: 100%;
 }
 
 /* Reset */
@@ -1784,7 +1769,6 @@ h9 {
 
 		a:hover {
 			border-bottom-color: transparent;
-			text-decoration: none !important;
 		}
 
 	strong, b {
@@ -2019,7 +2003,6 @@ h9 {
 			line-height: 1;
 		}
 	}
-
 
 /* Form */
 
@@ -2309,15 +2292,13 @@ h9 {
 .image {
 	border-radius: 3px;
 	border: 0;
-	display: inline-block;
+	/* display: inline-block; */
 	position: relative;
 }
 
 .image img {
 	border-radius: 3px;
 	display: block;
-	height: 10rem;
-	object-fit: cover;
 }
 
 .image.left {
@@ -2349,15 +2330,6 @@ h9 {
 	.image.fit img {
 		width: 100%;
 	}
-
-.bg-image {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-    box-shadow: inset 0px -60px 105px -24px rgba(0,0,0,0.75);
-	object-fit: cover;
-	z-index: -1;	
-}
 
 /* List */
 
@@ -2995,8 +2967,8 @@ h9 {
 			}
 
 			.wrapper .image {
-				padding: 1em 0 1em 0 ;
-			}
+				padding: 8em 3em 1em 3em ;
+				}
 
 		@media screen and (min-width: 1281px) {
 
@@ -3009,20 +2981,15 @@ h9 {
 			}
 
 			.wrapper .image {
-				padding: 2em 0 2em 0 ;
+			padding: 8em 3em 3em 3em ;
 			}
 		}
 
 /* Wrapper */
 
 	.wrapper {
-		padding: 4em 0 4em 0;
+		padding: 6em 0 4em 0;
 	}
-		@media screen and (max-width: 981px) {
-			.wrapper {
-				padding: 2em 0 2em 0;
-			}			
-		}
 
 		.wrapper > .inner {
 			width: 60em;
@@ -3424,9 +3391,9 @@ h9 {
 				color: #2E3842;
 			}
 
-			/* .wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
+			.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
 				color: #2E3842;
-			} */
+			}
 
 			.wrapper.style5 hr {
 				border-color: #dfdfdf;
@@ -3550,9 +3517,9 @@ h9 {
 				.wrapper.style5 input[type="reset"]:hover,
 				.wrapper.style5 input[type="button"]:hover,
 				.wrapper.style5 button:hover,
-				/* .wrapper.style5 .button:hover {
+				.wrapper.style5 .button:hover {
 					background-color: rgba(0, 0, 0, 0.0375);
-				} */
+				}
 
 				.wrapper.style5 input[type="submit"]:active,
 				.wrapper.style5 input[type="reset"]:active,
@@ -3983,7 +3950,7 @@ h9 {
 			}
 
 		#banner:after {
-			/* -moz-pointer-events: none;
+			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
@@ -3994,7 +3961,7 @@ h9 {
 			-moz-transition-delay: 1.25s;
 			-webkit-transition-delay: 1.25s;
 			-ms-transition-delay: 1.25s;
-			transition-delay: 1.25s; */
+			transition-delay: 1.25s;
 			content: '';
 			background: #2e3842;
 			display: block;
@@ -4147,10 +4114,10 @@ h9 {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35));
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35));
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35));
-		background-image: linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35));
+		background-image: -moz-linear-gradient(top, rgba(12,63,82,0.35), rgba(12,63,82,0.35)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(12,63,82,0.35), rgba(12,63,82,0.35)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(12,63,82,0.35), rgba(12,63,82,0.35)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(12,63,82,0.35), rgba(12,63,82,0.35)), url("../../images/banner.jpg");
 		-webkit-box-shadow: inset 0px -60px 105px -24px rgba(0,0,0,0.75);
 		-moz-box-shadow: inset 0px -60px 105px -24px rgba(0,0,0,0.75);
 		box-shadow: inset 0px -60px 105px -24px rgba(0,0,0,0.75);
@@ -4167,22 +4134,11 @@ h9 {
 		}
 
 		#main > header p {
-			color: white;
+			color: inherit;
 			/* letter-spacing: 0.225em; */
 			text-transform: none;
 			top: 0;
 		}
-
-		@media screen and (max-width: 768px) {
-			#main > header p {
-				font-size: 0.9rem;
-				font-weight: lighter;
-			}
-		}
-
-			#main > header p.fecha {
-				color: rgb(139, 209, 255);
-			}
 
 			#main > header p a {
 				color: inherit;
