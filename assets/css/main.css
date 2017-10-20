@@ -332,12 +332,18 @@ h9 {
 }
 
 .wrapper p {
-	/* color: grey; */
 	font-size: 1.2rem;
 	line-height: 2rem;
 	font-weight: 400;
-	text-align: left;	
 }
+
+.wrapper.nota p {
+	font-size: 1.2rem;
+	line-height: 2rem;
+	font-weight: 400;
+	text-align: left;		
+}
+
 
 @media screen and (max-width:768px) {
 	.titulo {
