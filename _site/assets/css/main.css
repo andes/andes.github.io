@@ -323,16 +323,25 @@ h9 {
 	text-transform: uppercase;
 }
 
+
+@media screen and (max-width:768px) {
+	.wrapper p.fecha {
+		border-top: solid 2px grey;
+		padding-top: 2rem;
+	}
+}
+
 .wrapper p {
 	/* color: grey; */
 	font-size: 1.2rem;
 	line-height: 2rem;
 	font-weight: 400;
+	text-align: left;	
 }
 
 @media screen and (max-width:768px) {
 	.titulo {
-		font-size: 0.9rem;
+		font-size: 1.4rem;
 	}
 }
 
