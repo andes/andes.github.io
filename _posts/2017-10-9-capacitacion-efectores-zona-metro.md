@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Se capacitó a personal de efectores de la Zona Metro
+title: Se capacitó a personal perteneciente a efectores de la Zona Metro
 excerpt: La capacitación se realizó en el auditorio del Ministerio de Salud y fue orientada a representantes de cada efector de Zona Metro. 
 featured: noti03.jpg
 date: 2017-10-9
