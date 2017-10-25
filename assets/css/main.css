@@ -3998,7 +3998,7 @@ h9 {
 			}
 
 		#banner:after {
-			/* -moz-pointer-events: none;
+			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
@@ -4009,7 +4009,7 @@ h9 {
 			-moz-transition-delay: 1.25s;
 			-webkit-transition-delay: 1.25s;
 			-ms-transition-delay: 1.25s;
-			transition-delay: 1.25s; */
+			transition-delay: 1.25s;
 			content: '';
 			background: #2e3842;
 			display: block;
