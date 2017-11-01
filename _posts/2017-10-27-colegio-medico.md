@@ -3,7 +3,7 @@ layout: post
 title: Se realizó el primer taller de vocabularios controlados de Salud
 excerpt: La capacitación fue dirigida a miembros de equipos de salud de las distintas zonas sanitarias de la provincia. 
 featured: noti04.jpg
-date: 2017-10-9
+date: 2017-10-27
 ---
 
 El día viernes 27 de Octubre, se llevó a cabo el Taller de Vocabularios Controlados y representación de significados en Salud. El taller se desarrollo en el Colegio Médico de Neuquén en el marco del proyecto ANDES y estuvo a cargo del Lic. Marcelo D. Carrascal, Jefe del Dto de Tecnologías de la Información del Hospital Castro Rendón.
