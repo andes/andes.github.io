@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ANDES participará de las jornadas de sistemas de información del Hospital Italiano
+title: Participamos en las jornadas de sistemas de información del Hospital Italiano
 excerpt: El objetivo es difundir el proyecto y exhibir su estado de avance ante la comunidad médica e informática. 
 featured: noti05.jpg
 date: 2017-11-16
