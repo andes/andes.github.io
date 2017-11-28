@@ -17,7 +17,18 @@
                         {% endif %}                   
                     </div>
                         <p class="contenido">{{ post.excerpt}}</p>
-                    <a href="{{ post.url }}" class="button violeta fit">Leer más</a>                    
+                    <a href="{{ post.url }}" class="button violeta fit">Leer más</a>
+                    <ul class="icons">
+                        <li class="special">
+                            <a href="http://www.facebook.com/sharer/sharer.php?url=<{{ post.url }}>" target="blank" class="icon fa-facebook"></a>
+                        </li>
+                        <li class="special">
+                            <a href="http://twitter.com/share?url=<{{ post.url }}>&text=<{{ post.title }}>via=<@andesneuquen>" target="blank" class="icon fa-twitter"></a>
+                        </li>
+                        <li class="special">
+                            <a href="https://plus.google.com/share?url=<{{ post.url }}>" target="blank" class="icon fa-google-plus"></a>
+                        </li>
+                    </ul>
                 </div>
                 {% endfor %}														                        
             </div>
