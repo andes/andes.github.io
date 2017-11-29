@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Se realizó el primer taller de vocabularios controlados de Salud
-excerpt: La capacitación fue dirigida a miembros de equipos de salud de las distintas zonas sanitarias de la provincia. 
+excerpt: Fue dirigida a miembros de equipos de salud de las distintas zonas sanitarias de la provincia. 
 featured: noti04.jpg
 date: 2017-10-27
 ---
