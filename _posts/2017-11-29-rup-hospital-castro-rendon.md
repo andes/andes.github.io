@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Presentamos RUP, el Registro Universal de Prestaciones ante profesionales de la salud
+title: Presentamos RUP, el Registro Universal de Prestaciones
 excerpt:  Fue brindada por miembros del equipo ANDES en el Hospital Provincial Dr. Castro Rendón.
 featured: noti06.jpg
 date: 2017-11-29
