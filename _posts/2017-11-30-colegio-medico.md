@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nueva presentación de RUP en el Colegio Médico
+title: Nueva presentación de RUP en el Colegio Médico de Neuquén
 excerpt: Los asistentes pudieron ver el funcionamiento de la herramienta en tiempo real.
 featured: noti07.jpg
 date: 2017-11-30
