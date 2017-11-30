@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nueva presentación de RUP en el CMN
-excerpt:Los asistentes pudieron ver el funcionamiento de la herramienta en tiempo real.
+excerpt: Los asistentes pudieron ver el funcionamiento de la herramienta en tiempo real.
 featured: noti04.jpg
 date: 2017-11-30
 ---
