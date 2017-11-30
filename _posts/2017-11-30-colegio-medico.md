@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Nueva presentación de RUP en el CMN
+title: Nueva presentación de RUP en el Colegio Médico
 excerpt: Los asistentes pudieron ver el funcionamiento de la herramienta en tiempo real.
-featured: noti04.jpg
+featured: noti07.jpg
 date: 2017-11-30
 ---
 Se llevó a cabo la presentación y posterior demostración de RUP,  el módulo desarrollado para el registro universal de prestaciones que integra el ecosistema ANDES.
