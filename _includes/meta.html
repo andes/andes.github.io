@@ -1,7 +1,7 @@
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     <link href="{{site.baseurl}}/images/andes.ico" rel='shortcut icon' type='image/x-icon'>
-    
+
     <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -9,8 +9,6 @@
 
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <!-- Bootstrap 4.0.0 -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/bootstrap/css/bootstrap.min.css">  
 
     {% if page.excerpt %}
     <meta name="description" content="{{ page.excerpt| strip_html }}" />
@@ -25,3 +23,16 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
+
+    <!-- Bootstrap 4.0.0 -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/bootstrap/css/bootstrap.min.css">  
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://www.andes.gob.ar/">
+    <meta name="twitter:title" content="ANDES | Aplicaciones Neuquinas de Salud">
+    <meta name="twitter:description" content="Sitio oficial del Proyecto ANDES">
+    <meta name="twitter:image" content="og_default.jpg">
+
+    <meta itemprop="name" content="ANDES | Aplicaciones Neuquinas de Salud">
+    <meta itemprop="description" content="Sitio oficial del Proyecto ANDES">

@@ -32,6 +32,17 @@ layout: post
 							<div class="inner">
                 <p>{{ page.content }}</p>
               </div>
+              <ul class="">
+                <li class="special">
+                    <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.andes.gob.ar{{ post.url }}" target="blank" class="icon fa-facebook"></a>
+                </li>
+                <li class="special">
+                    <a href="http://twitter.com/share?url=<{{ post.url }}>&text={{ post.title }} por @andesneuquen" target="blank" class="icon fa-twitter"></a>
+                </li>
+                <li class="special">
+                    <a href="https://plus.google.com/share?url={{ post.url }}&text={{ post.title }}" target="blank" class="icon fa-google-plus"></a>
+                </li>
+            </ul>
 						</section>
 					</article>
 
