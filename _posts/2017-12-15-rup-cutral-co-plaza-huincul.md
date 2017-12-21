@@ -11,8 +11,8 @@ La actividad constó de tres tracks: uno científico, una práctica y una abiert
 Durante las dos jornadas se realizaron sendas endoscopias altas y bajas a más de un centenar de pacientes de todos los puntos de la provincia en un clima de cooperación y camaradería entre los equipos técnicos del Hospital de Cutral Có y el resto de los profesionales invitados. Se aprovechó la oportunidad para utilizar por primera vez el módulo de registro prestaciones del proyecto ANDES. Se implementaron las prestaciones de esofagogastroduodenoscopía y colonoscopía para poder asistir al registro e realizar los informes para los pacientes. Se realizaron las pruebas d stress, con múltiples usuarios trabajando en simultáneo con resultados más que exitosos.
 Posteriormente se realizó una encuesta entre los usuarios del sistema cuyos resultados exponemos a continuación.
 
-<section class="wrapper nota style5 ">
+<section class="wrapper">
     <div class="inner">
-        <img class="bg-image" src="{{ site.baseurl }}/images/posts/noti09-a.jpg">
+        <img src="{{ site.baseurl }}/images/posts/noti09-a.jpg">
     </div>
 </section>
