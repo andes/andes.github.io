@@ -13,6 +13,6 @@ Posteriormente se realizó una encuesta entre los usuarios del sistema cuyos res
 
 <section class="wrapper">
     <div class="inner">
-        <img src="{{ site.baseurl }}/images/posts/noti09-a.jpg">
+        <img class"image fit" src="{{ site.baseurl }}/images/posts/noti09-a.jpg">
     </div>
 </section>
