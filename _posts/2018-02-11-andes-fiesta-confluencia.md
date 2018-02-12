@@ -3,7 +3,7 @@ layout: post
 title: ANDES presente en la Fiesta de la Confluencia
 excerpt: Se concretó a partir de la instalación de un punto de acreditación para que los interesados puedan acreditarse en el sistema.
 featured: noti11.jpg
-date: 2017-2-11
+date: 2017-02-11
 ---
 
 La  Fiesta de la Confluencia en su edición 2018, fue el escenario ideal para seguir difundiendo y fomentando el uso de ANDES. A partir de la instalación de un punto de acreditación, se logró que los interesados puedan acreditarse en el sistema y de este modo poder acceder a los beneficios que ofrece la plataforma.
