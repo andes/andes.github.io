@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ANDES presente en la Fiesta de la Confluencia
-excerpt:  Instalamos un punto de acreditación para que los interesados puedan registrarse en la plataforma durante el masivo evento.
+excerpt:  Instalamos un punto de acreditación para que los ciudadanos puedan registrarse durante el masivo evento.
 featured: noti11.jpg
 date: 2018-2-12
 ---
