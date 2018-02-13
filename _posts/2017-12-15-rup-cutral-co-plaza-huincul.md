@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Profesionales de Cutral Co utilizaron el módulo asistencial RUP
+title: Profesionales de Cutral Co utilizaron RUP
 excerpt:  Fue en el marco de las Jornadas de Prevención de Cáncer Gástrico y Colorrectal desarrolladas en Cutral Co.
 featured: noti09.jpg
 date: 2017-12-15
