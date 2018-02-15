@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Argentina incorpora SNOMED CT como terminología oficial
+title: Argentina incorpora SNOMED CT
 excerpt:  Se trata del estándar que emplea ANDES para la representación de información en salud.
 featured: noti13.jpg
 date: 2018-02-05
