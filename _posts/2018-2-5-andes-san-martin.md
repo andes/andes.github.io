@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Realizamos capacitaciones en San Martín de los Andes
-excerpt:  Fueron brindadas al personal del Hospital Ramón Carrillo en una serie de jornadas 
+excerpt:  Fueron brindadas al personal del Hospital Ramón Carrillo en una serie de jornadas.
 featured: noti10.jpg
 date: 2018-02-05
 ---
